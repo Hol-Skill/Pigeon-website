@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Hol's Photo App</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/png" href="images/pigeon_png__5__by_agusrockforlife_ddxauy6-pre.png">
+            <meta charset="UTF-8">
+            <meta name="description" content="A web gallery with information and photos about Pigeons">
+            <meta author="Hol Ski">
+            <meta keywords="pigeon, birds, photography, photos">
+            <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        </head>
+
+    </head>
+    
+    <body>
+        <div id="mainBody">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="card.html">Pidgemon Card</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="quiz.html">Pidge Quiz</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Pigeons</h1>
+                <p>Welcome to my photo gallery<br>Learn all about the best birds around every town.</p>
+            </header>
+            <main>
+                <section>
+                    <h3>Facts about Pigeons</h3>
+                    <p>Here are some interesting facts about Pigeons</p>
+                    <ul>
+                     <li>Pigeons are descended from domesticated birds, which means most pigeon breeds you see are actually feral, <strong>not</strong> wild.</li><br>
+                     <li>Before chickens, pigeons were commonly bred for their meat.</li><br>
+                     <li>Pigeons can have 3 broods of chicks a year.</li><br>
+                     <li>Pigeons were one of our first couriers and aerial camera operators.</li>
+                     </ul>
+                     <img src="images/wealthpigeon.jpg" style="width:;height: auto; border-radius: 20px;" alt="Pigeon facing left.">
+
+                    <p>The most common breeds of pigeon we see in the UK are:</p>
+                    <ol>
+                        <li>Rock Dove</li>
+                        <li>Wood Pigeon</li>
+                        <li>Ring tailed Pigeon</li>
+                </ol>
+                <img src="images/Pigeon2.jpg" style="width:; height: auto; border-radius: 20px;" alt="Pigeon with camera mounted to breast.">
+                
+                </section>
+                <p>For more information about pigeons click <a href="PigeonFacts.html" target="_blank">here</a></p>
+                <!---------------WEBFORM------------------>
+                <h2>Submit your Pigeon Pics here</h2>
+                <form name="app" id="app">
+                    <fieldset>
+                        <legend>
+                        What type of Pigeon is in your photo?</legend>
+                        <input id="Rock Dove" type="radio" name="breed" value="Rock Dove">
+                        <label for="Rock Dove">Rock Dove</label><br>
+                        <input id="Wood Pigeon" type="radio" name="breed" value="Wood Pigeon">
+                        <label for="Wood Pigeon">Wood Pigeon</label><br>
+                        <input id="Other" type="radio" name="breed" value="Other">
+                        <label for="">Other</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What's the best thing about your pigeon of choice?</legend>
+                        <input id="wealth" type="checkbox" name="traits" value="jewellery">
+                        <label for="jewellery">They make artisan bread jewellery</label><br>
+                        <input id="insurance" type="checkbox" name="traits" value="insurance">
+                        <label for="insurance">They invested in Squab insurance</label><br>
+                        <input id="first" type="checkbox" name="traits" value="first">
+                        <label for="first">They always buy the first round</label>
+                     </fieldset>
+        
+                    <label for="url">Enter your photo URL</label>
+                    <input ID="url" type="text" name="photourl">
+
+                    <input type="button" value="Submit"
+                    onclick="saveFile()">
+
+                </form>
+            </main>
+            <footer><p>Copyright Hol - DON'T STEAL ME PIDGES</p></footer>
+        </div>
+    </body>
+</html>

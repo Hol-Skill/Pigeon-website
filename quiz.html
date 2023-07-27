@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Quiz</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="images/pigeon_png__5__by_agusrockforlife_ddxauy6-pre.png">
+        <meta charset="UTF-8">
+        <meta name="description" content="A quiz about Pigeons">
+        <meta author="Hol Ski">
+        <meta keywords="pigeon, birds, facts, bird quiz">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    </head>
+    <div id="mainBody">
+         <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="card.html">Pidgemon Card</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="quiz.html">Pidge Quiz</a></li>
+                </ul>
+            </nav>
+            <header>
+            <h1>Getting Quizzy with it</h1>
+            <p>Pidgemon card</p>
+        </header>
+        <body>
+
+            <div id="quiz">
+                <h2>The Quiz</h2>
+                <form name="Quiz">
+                    <!-------------NAME FIELD-------------->
+                    <label for="fname">Enter your name</label>
+                    <input id="fname" type="text" name="fname">
+
+                    <br><br>
+                    <!-------------QUESTION 1-------------->
+                    <p>Are pigeons and doves the same?</p>
+                    <input id="yes" type="radio" name="dove" value="yes">
+                    <label for="true">Yes</label><br>
+
+                    <input id="no" type="radio" name="dove" 
+                    value="no">
+                    <label for ="false">No</label><br>
+
+                    <input id="kinda" type="radio" name="dove" 
+                    value="kinda">
+                    <label for ="kinda">Kinda</label><br>
+
+                    <input id="actually" type="radio" name="dove" 
+                    value="actually">
+                    <label for ="actually">All doves are pigeons but not all pigeons are doves</label><br><br>
+                    
+                    <!-------------QUESTION 2-------------->
+                    <p>What are baby pigeons called?</p>
+                    <input id="kits" type="radio" name="baby" value="kits">
+                    <label for="kits">Kits</label><br>
+
+                    <input id="kits" type="radio" name="baby" 
+                    value="tuckers">
+                    <label for ="kits">Tuckers</label><br>
+
+                    <input id="squabs" type="radio" name="baby" 
+                    value="squabs">
+                    <label for ="squabs">Squabs</label><br>
+
+                    <input id="angela" type="radio" name="baby" 
+                    value="angela">
+                    <label for ="angela">Angela</label>
+
+                    <!-------------QUESTION 3-------------->
+                    <p>How many pigeons were awarded a medal for gallantry after WW2?</p>
+                    <input id="12" type="radio" name="awards" value="12">
+                    <label for="12">12</label><br>
+
+                    <input id="25" type="radio" name="awards" 
+                    value="25">
+                    <label for ="25">25</label><br>
+
+                    <input id="32" type="radio" name="awards" 
+                    value="32">
+                    <label for ="32">32</label><br>
+
+                    <input id="48" type="radio" name="awards" 
+                    value="48">
+                    <label for ="48">48</label>
+
+                </form>
+            </div>
+            <br>
+            <button type="button" onclick= "checkAnswers()">Submit</button>
+    </body>
+</html>
